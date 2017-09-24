@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.awt.Desktop;
 
+import java.util.Stack;
+
 /*
 ***** This is what outputs for the second out put ******** 
 0.html Sun Sep 24 15:17:30 EDT 2017http://em.efollett.com)
@@ -64,6 +66,36 @@ public class Main {
     }
 }
 
+public class DFS{
+    
+    Stack s = new Stack();
+    static Set<String> marked = new HashSet<>();
+    static String root = "http://www.spelman.edu";
+    static String regex = "http[s]*://(\\w+\\.)*(\\w+)";
+    
+    int count = 0;
+
+
+    static Queue<String> q = new LinkedList<>();
+
+    //URLs already visited
+    s.push(root);
+    while(!s.isEmpty()){
+        
+        String first = q.top();
+        
+        q.top();
+        
+        for 
+        
+        
+        
+        
+        
+    }
+    
+    
+}
 
 public class BFSCrawler {
 
